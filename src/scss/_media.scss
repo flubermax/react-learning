@@ -1,0 +1,279 @@
+@media (max-width: 1880px) {
+  .firstScreen__image {
+    font-size: 410px;
+    line-height: 450px;
+  }
+}
+@media (max-width: 1750px) {
+  .firstScreen__image {
+    font-size: 350px;
+  }
+}
+@media (max-width: 1400px) {
+  .firstScreen__image {
+    font-size: 280px;
+    line-height: 380px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+  .firstScreen__image {
+    opacity: 0.04;
+  }
+  .why__item {
+    width: 48%;
+    padding: 10px;
+  }
+  .why p {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  @keyframes webfade {
+    0% {
+      opacity: 0;
+    }
+    70% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.04;
+    }
+  }
+  h1 {
+    font-size: 45px;
+  }
+  header p {
+    font-size: 18px;
+  }
+  .firstScreen__button {
+    width: 250px;
+    height: 50px;
+  }
+  .firstScreen__buttonText {
+    font-size: 14px;
+  }
+  .mywork {
+    height: 220px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .slick-prev,
+  .slick-next {
+    top: 105%;
+  }
+  .slick-prev {
+    left: 9px;
+  }
+  .slick-next {
+    right: 32px;
+  }
+  .slick-dots {
+    bottom: -65px;
+  }
+  .mywork {
+    height: 160px;
+    margin-bottom: 70px;
+    overflow: visible;
+  }
+  .mywork:hover {
+    -moz-box-shadow: 0 0 5px #fff;
+    -webkit-box-shadow: 0 0 5px #fff;
+    box-shadow: 0 0 5px #fff;
+  }
+  .mywork:hover .myworkHidden {
+    opacity: 1;
+    height: auto;
+  }
+  .myworkHidden {
+    top: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 0 0 5px 5px;
+    opacity: 1;
+  }
+  .myworkHidden p {
+    display: none;
+  }
+  .portfBtn {
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    margin: 0 auto;
+    padding: 0 8px;
+    opacity: 0.9;
+  }
+  .portfBtn:hover {
+    color: #ff8000;
+  }
+}
+
+@media (max-width: 767px) {
+  .content {
+    margin-top: 52px;
+  }
+  .container {
+    max-width: none;
+    padding: 30px 15px 0;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  hr {
+    width: 100px;
+    height: 8px;
+  }
+  header {
+    height: auto;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 5px 15px;
+    z-index: 5;
+
+    &__menu {
+      position: absolute;
+      top: 53px;
+      left: 0;
+      width: 100%;
+      background-color: #00262f;
+      border-bottom: 2px solid rgba(120, 120, 120, 0.4);
+      padding: 15px 15px 10px;
+      transition: all 0.2s linear;
+      z-index: 2;
+      opacity: 0;
+      transform: translateY(-20px);
+      visibility: hidden;
+
+      &__description {
+        transform: translate(0, -50%);
+        font-size: 16px;
+        padding-left: 0;
+        opacity: 1;
+      }
+
+      &__btn {
+        display: block;
+      }
+    }
+
+    &__socials a {
+      display: inline-block;
+      margin: 0 5px;
+    }
+  }
+
+  .navbar__menu.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .firstScreen__wrap {
+    padding: 0 30px;
+  }
+  .firstScreen__down {
+    display: none;
+  }
+  .firstScreen__image {
+    display: none;
+  }
+  .price__item:hover {
+    transform: none;
+  }
+  .mywork {
+    width: calc(50% - 20px);
+    height: 180px;
+    margin: 0 10px 70px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 32px;
+  }
+  .firstScreen__wrap {
+    padding: 0 15px;
+  }
+  .why__item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .price__number {
+    display: none;
+  }
+  .about__cube__wrap {
+    width: 140px;
+    height: 140px;
+  }
+  .about__cube__side {
+    font-size: 20px;
+    line-height: 140px;
+  }
+  .front {
+    transform: translateZ(70px);
+  }
+  .back {
+    transform: rotateY(180deg) translateZ(70px);
+  }
+  .right {
+    transform: rotateY(90deg) translateZ(70px);
+  }
+  .left {
+    transform: rotateY(-90deg) translateZ(70px);
+  }
+  .top {
+    transform: rotateX(90deg) translateZ(70px);
+  }
+  .bottom {
+    transform: rotateX(-90deg) translateZ(70px);
+  }
+  .slick-prev {
+    left: 75px;
+  }
+  .slick-next {
+    right: 100px;
+  }
+  .short_input {
+    width: 100%;
+  }
+  .mywork__wrap {
+    margin: 0;
+  }
+  .mywork {
+    width: 100%;
+    height: 250px;
+    margin: 0 0 70px;
+  }
+}
+
+@media (max-width: 380px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  hr {
+    height: 5px;
+  }
+  .mywork {
+    height: 160px;
+  }
+  .sent,
+  .mywork__btn {
+    width: 100%;
+  }
+}

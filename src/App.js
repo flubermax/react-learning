@@ -1,16 +1,22 @@
+import { Header } from './components';
+import { Route } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contacts from './pages/Contacts';
+import Portfolio from './pages/Portfolio';
+import Services from './pages/Services';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <ul className="menu">
-          <li>
-            <a href="#">Главная</a>
-          </li>
-          <li>
-            <a href="#">Контакты</a>
-          </li>
-        </ul>
-      </header>
+    <div>
+      <Header />
+      <div className="content">
+        <Route path="/" component={Home} exact />
+        <Route path="/about" component={About} />
+        <Route path="/contacts" component={Contacts} />
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/services" component={Services} />
+      </div>
     </div>
   );
 }
