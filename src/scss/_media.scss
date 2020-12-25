@@ -79,7 +79,7 @@
   }
   .mywork {
     height: 160px;
-    margin-bottom: 70px;
+    margin-bottom: 85px;
     overflow: visible;
   }
   .mywork:hover {
@@ -117,18 +117,11 @@
 
 @media (max-width: 767px) {
   .content {
-    margin-top: 52px;
+    padding-top: 52px;
   }
   .container {
     max-width: none;
     padding: 30px 15px 0;
-  }
-  h2 {
-    font-size: 35px;
-  }
-  hr {
-    width: 100px;
-    height: 8px;
   }
   header {
     height: auto;

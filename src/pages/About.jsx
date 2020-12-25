@@ -1,13 +1,14 @@
 import React from 'react'
 
+import {PageTitle} from '../components'
 import myPhoto from '../assets/img/me.jpg'
 
 const About = () => {
   return (
     <div className="about">
       <div className="container">
-        <h2>Обо мне</h2>
-        <hr />
+        <PageTitle text="Обо мне" />
+
         <div className="about__wrap">
           <div className="about__image">
             <img src={myPhoto} className="about__myphoto" alt="front-end разработчик" />

@@ -1,11 +1,11 @@
-@import 'fonts';
-@import 'variables';
+@import "fonts";
+@import "variables";
 // @import 'libs/normalize';
 
-@import 'components/all';
+@import "components/all";
 
 * {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -62,7 +62,7 @@ a {
   top: 50%;
   right: 10%;
   transform: translate(0, -50%);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 440px;
   line-height: 400px;
   font-weight: bold;
@@ -80,7 +80,7 @@ a {
   }
 }
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   font-size: 55px;
   letter-spacing: 1.5px;
@@ -129,7 +129,7 @@ h1 {
   transition: all 1s ease 0s;
   &:after,
   &:before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 50%;
@@ -158,27 +158,9 @@ h1 {
   }
 }
 
-/*-------------headings------------*/
-h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-}
-hr {
-  display: block;
-  border: none;
-  border-radius: 5px;
-  background-color: #ff8000;
-  color: #ff8000;
-  height: 10px;
-  width: 120px;
-  margin: 10px auto 40px;
-}
-
 /*--------services---------*/
 .price {
-  background: url('../assets/img/fonmysite.jpg');
+  background: url("../assets/img/fonmysite.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -190,9 +172,6 @@ hr {
   align-items: center;
   margin-bottom: 30px;
   transition: all 0.3s ease-in-out;
-}
-.price__item:hover {
-  transform: translate(20px, 0);
 }
 .price__number {
   color: #fff;
@@ -206,9 +185,6 @@ hr {
 }
 .price__body h5 {
   font-size: 20px;
-}
-.price__item:hover .price__number {
-  border-radius: 50%;
 }
 
 /*---------about---------*/
@@ -252,7 +228,7 @@ hr {
   height: inherit;
   background-color: #00262f;
   border: 1px solid #ff8000;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 30px;
   text-align: center;
   line-height: 200px;
@@ -304,7 +280,7 @@ hr {
 /*-----------portfolio----------*/
 .portf {
   text-align: center;
-  background: url('../assets/img/comp2.jpg');
+  background: url("../assets/img/comp2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -320,7 +296,7 @@ hr {
   display: block;
   width: calc(50% - 40px);
   height: 270px;
-  margin: 20px;
+  margin: 0 20px 40px;
   -moz-box-shadow: 0 0 5px #fff;
   -webkit-box-shadow: 0 0 5px #fff;
   box-shadow: 0 0 5px #fff;
@@ -359,7 +335,7 @@ hr {
   margin: 20px auto 0;
   background-color: #ff8000;
   color: #000;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 14px;
   letter-spacing: 1.3px;
   text-decoration: none;
@@ -374,70 +350,70 @@ hr {
 }
 
 .myworkItem1 {
-  background-image: url('../assets/img/portfolio/site-card.jpg');
+  background-image: url("../assets/img/portfolio/site-card.jpg");
 }
 .myworkItem2 {
-  background-image: url('../assets/img/portfolio/sumki.jpg');
+  background-image: url("../assets/img/portfolio/sumki.jpg");
 }
 .myworkItem3 {
-  background-image: url('../assets/img/portfolio/pe4nik.jpg');
+  background-image: url("../assets/img/portfolio/pe4nik.jpg");
 }
 .myworkItem4 {
-  background-image: url('../assets/img/portfolio/ktk.jpg');
+  background-image: url("../assets/img/portfolio/ktk.jpg");
 }
 .myworkItem5 {
-  background-image: url('../assets/img/portfolio/north-design.jpg');
+  background-image: url("../assets/img/portfolio/north-design.jpg");
 }
 .myworkItem6 {
-  background-image: url('../assets/img/portfolio/edged.jpg');
+  background-image: url("../assets/img/portfolio/edged.jpg");
 }
 .myworkItem7 {
-  background-image: url('../assets/img/portfolio/vaz_planeta.jpg');
+  background-image: url("../assets/img/portfolio/vaz_planeta.jpg");
 }
 .myworkItem8 {
-  background-image: url('../assets/img/portfolio/disArt.jpg');
+  background-image: url("../assets/img/portfolio/disArt.jpg");
 }
 .myworkItem9 {
-  background-image: url('../assets/img/portfolio/sonya.jpg');
+  background-image: url("../assets/img/portfolio/sonya.jpg");
 }
 .myworkItem10 {
-  background-image: url('../assets/img/portfolio/cmt.jpg');
+  background-image: url("../assets/img/portfolio/cmt.jpg");
 }
 .myworkItem11 {
-  background-image: url('../assets/img/portfolio/proprizyv.jpg');
+  background-image: url("../assets/img/portfolio/proprizyv.jpg");
 }
 .myworkItem12 {
-  background-image: url('../assets/img/portfolio/aer.jpg');
+  background-image: url("../assets/img/portfolio/aer.jpg");
 }
 .myworkItem13 {
-  background-image: url('../assets/img/portfolio/beauty-gun.jpg');
+  background-image: url("../assets/img/portfolio/beauty-gun.jpg");
 }
 .myworkItem14 {
-  background-image: url('../assets/img/portfolio/asana.jpg');
+  background-image: url("../assets/img/portfolio/asana.jpg");
 }
 .myworkItem15 {
-  background-image: url('../assets/img/portfolio/pravotech.jpg');
+  background-image: url("../assets/img/portfolio/pravotech.jpg");
 }
 .myworkItem16 {
-  background-image: url('../assets/img/portfolio/texo.jpg');
+  background-image: url("../assets/img/portfolio/texo.jpg");
 }
 .myworkItem17 {
-  background-image: url('../assets/img/portfolio/tatkran.jpg');
+  background-image: url("../assets/img/portfolio/tatkran.jpg");
 }
 .myworkItem18 {
-  background-image: url('../assets/img/portfolio/ask.jpg');
+  background-image: url("../assets/img/portfolio/ask.jpg");
 }
 .myworkItem19 {
-  background-image: url('../assets/img/portfolio/cavator.jpg');
+  background-image: url("../assets/img/portfolio/cavator.jpg");
 }
 .myworkItem20 {
-  background-image: url('../assets/img/portfolio/beautysaloon.jpg');
+  background-image: url("../assets/img/portfolio/beautysaloon.jpg");
 }
 .myworkItem21 {
-  background-image: url('../assets/img/portfolio/service-exchange.jpg');
+  background-image: url("../assets/img/portfolio/service-exchange.jpg");
 }
 .myworkItem22 {
-  background-image: url('../assets/img/portfolio/olly-nails.jpg');
+  background-image: url("../assets/img/portfolio/olly-nails.jpg");
 }
 .mywork__btn {
   width: 240px;
@@ -446,7 +422,7 @@ hr {
   margin: 40px auto 0;
   text-decoration: none;
   transition: all 0.3s ease;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 1.2px;
@@ -510,7 +486,7 @@ textarea {
   margin: 0 auto;
   text-decoration: none;
   transition: all 0.3s ease;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 1.2px;
@@ -556,4 +532,4 @@ footer {
   padding: 20px 0;
 }
 
-@import 'media';
+@import "media";

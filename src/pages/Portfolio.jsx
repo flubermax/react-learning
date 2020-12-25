@@ -1,11 +1,12 @@
 import React from 'react'
 
+import {PageTitle} from '../components'
+
 const Portfolio = () => {
   return (
     <div className="portf">
       <div className="container">
-        <h2>Портфолио</h2>
-        <hr />
+        <PageTitle text="Портфолио" />
 
         <div className="mywork__wrap">
           <div className="mywork myworkItem22">

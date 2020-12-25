@@ -1,11 +1,13 @@
 import React from 'react'
 
+import {PageTitle} from '../components'
+
 const Contacts = () => {
   return (
     <div className="contacts">
       <div className="container">
-        <h2>Контакты</h2>
-        <hr />
+        <PageTitle text="Контакты" />
+
         <form>
           <input type="hidden" name="project_name" value="WEBMAX" />
           <input type="hidden" name="admin_email" value="maks125@yandex.ru" />
