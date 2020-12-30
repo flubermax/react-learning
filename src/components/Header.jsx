@@ -64,13 +64,13 @@ const Header = () => {
             </li>
           </ul>
           <div className="navbar__socials">
-            <a href="https://vk.com/flubermax" target="_blank">
+            <a href="https://vk.com/flubermax" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-vk"></i>
             </a>
-            <a href="https://www.instagram.com/flubermax" target="_blank">
+            <a href="https://www.instagram.com/flubermax" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="https://www.linkedin.com/in/maksim-gorbachev-62b269184/" target="_blank">
+            <a href="https://www.linkedin.com/in/maksim-gorbachev-62b269184/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i>
             </a>
           </div>

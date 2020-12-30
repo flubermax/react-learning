@@ -1,12 +1,13 @@
-import styled from "styled-components";
+import styled from 'styled-components'
+import PropTypes from 'prop-types'
 
 const PageTitleStyle = styled.h2`
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: bold;
   text-align: center;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 55px;
 
   ::before {
     content: '';
@@ -23,20 +24,34 @@ const PageTitleStyle = styled.h2`
     width: 120px;
   }
 
-  @media(max-width: 767px) {
+  @media (max-width: 767px) {
     font-size: 35px;
-    ::before{
+    margin-bottom: 45px;
+    ::before {
       width: 100px;
       height: 8px;
+      bottom: -20px;
     }
   }
-  @media(max-width: 767px) {
+  @media (max-width: 380px) {
     font-size: 28px;
+    ::before {
+      width: 80px;
+      height: 5px;
+    }
   }
-`;
+`
 
 const PageTitle = ({ text }) => {
   return <PageTitleStyle>{text}</PageTitleStyle>
 }
 
-export default PageTitle;
+PageTitle.propTypes = {
+  text: PropTypes.string.isRequired,
+}
+
+PageTitle.defaultProps = {
+  text: 'Заголовок',
+}
+
+export default PageTitle

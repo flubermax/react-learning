@@ -1,0 +1,129 @@
+.myworkItem1 {
+  background-image: url("../../assets/img/portfolio/site-card.jpg");
+}
+.myworkItem2 {
+  background-image: url("../../assets/img/portfolio/sumki.jpg");
+}
+.myworkItem3 {
+  background-image: url("../../assets/img/portfolio/pe4nik.jpg");
+}
+.myworkItem4 {
+  background-image: url("../../assets/img/portfolio/ktk.jpg");
+}
+.myworkItem5 {
+  background-image: url("../../assets/img/portfolio/north-design.jpg");
+}
+.myworkItem6 {
+  background-image: url("../../assets/img/portfolio/edged.jpg");
+}
+.myworkItem7 {
+  background-image: url("../../assets/img/portfolio/vaz_planeta.jpg");
+}
+.myworkItem8 {
+  background-image: url("../../assets/img/portfolio/disArt.jpg");
+}
+.myworkItem9 {
+  background-image: url("../../assets/img/portfolio/sonya.jpg");
+}
+.myworkItem10 {
+  background-image: url("../../assets/img/portfolio/cmt.jpg");
+}
+.myworkItem11 {
+  background-image: url("../../assets/img/portfolio/proprizyv.jpg");
+}
+.myworkItem12 {
+  background-image: url("../../assets/img/portfolio/aer.jpg");
+}
+.myworkItem13 {
+  background-image: url("../../assets/img/portfolio/beauty-gun.jpg");
+}
+.myworkItem14 {
+  background-image: url("../../assets/img/portfolio/asana.jpg");
+}
+.myworkItem15 {
+  background-image: url("../../assets/img/portfolio/pravotech.jpg");
+}
+.myworkItem16 {
+  background-image: url("../../assets/img/portfolio/texo.jpg");
+}
+.myworkItem17 {
+  background-image: url("../../assets/img/portfolio/tatkran.jpg");
+}
+.myworkItem18 {
+  background-image: url("../../assets/img/portfolio/ask.jpg");
+}
+.myworkItem19 {
+  background-image: url("../../assets/img/portfolio/cavator.jpg");
+}
+.myworkItem20 {
+  background-image: url("../../assets/img/portfolio/beautysaloon.jpg");
+}
+.myworkItem21 {
+  background-image: url("../../assets/img/portfolio/service-exchange.jpg");
+}
+.myworkItem22 {
+  background-image: url("../../assets/img/portfolio/olly-nails.jpg");
+}
+
+.mywork {
+  display: block;
+  width: calc(50% - 40px);
+  height: 270px;
+  margin: 0 20px 40px;
+  -moz-box-shadow: 0 0 5px #fff;
+  -webkit-box-shadow: 0 0 5px #fff;
+  box-shadow: 0 0 5px #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.myworkHidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+.mywork:hover {
+  -moz-box-shadow: 0 0 5px #ff8000;
+  -webkit-box-shadow: 0 0 5px #ff8000;
+  box-shadow: 0 0 5px #ff8000;
+}
+.mywork:hover .myworkHidden {
+  opacity: 1;
+  height: 100%;
+}
+
+.mywork__btn {
+  width: 240px;
+  height: 50px;
+  display: block;
+  margin: 40px auto 0;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  background-color: #ff8000;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.mywork__btn:hover {
+  background-color: transparent;
+  border: 1px solid #ff8000;
+  color: #ff8000;
+}
+.mywork__btn:active {
+  transform: scale(1.05);
+}

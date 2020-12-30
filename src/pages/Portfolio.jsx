@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {PageTitle} from '../components'
+import {PageTitle, PortfolioItem} from '../components'
 
 const Portfolio = () => {
   return (
@@ -9,269 +9,139 @@ const Portfolio = () => {
         <PageTitle text="Портфолио" />
 
         <div className="mywork__wrap">
-          <div className="mywork myworkItem22">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка <br />
-                по макету
-              </p>
-              <a href="portfolio/olly-nails/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
 
-          <div className="mywork myworkItem21">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка <br />
-                по макету
-              </p>
-              <a href="portfolio/service-exchange/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="22"
+            text="Адаптивная верстка по макету" 
+            folder="portfolio/olly-nails/index.html" 
+          />
 
-          <div className="mywork myworkItem20">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка <br />
-                по макету
-              </p>
-              <a href="portfolio/beautysaloon/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="21"
+            text="Адаптивная верстка по макету" 
+            folder="portfolio/service-exchange/index.html" 
+          />
 
-          <div className="mywork myworkItem19">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка <br />
-                по макету
-              </p>
-              <a href="portfolio/cavator/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="20"
+            text="Адаптивная верстка по макету" 
+            folder="portfolio/beautysaloon/index.html" 
+          />
 
-          <div className="mywork myworkItem18">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка <br />
-                по макету
-              </p>
-              <a href="portfolio/ask/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="19"
+            text="Адаптивная верстка по макету" 
+            folder="portfolio/cavator/index.html" 
+          />
 
-          <div className="mywork myworkItem17">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка <br />
-                по макету
-              </p>
-              <a href="portfolio/tatkran/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="18"
+            text="Адаптивная верстка по макету" 
+            folder="portfolio/ask/index.html" 
+          />
 
-          <div className="mywork myworkItem16">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка <br />
-                по макету
-              </p>
-              <a href="portfolio/texo/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="17"
+            text="Адаптивная верстка по макету" 
+            folder="portfolio/tatkran/index.html" 
+          />
 
-          <div className="mywork myworkItem15">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка, <br />
-                интеграция с WordPress
-              </p>
-              <a href="portfolio/pravotech/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="16"
+            text="Адаптивная верстка по макету" 
+            folder="portfolio/texo/index.html" 
+          />
 
-          <div className="mywork myworkItem14">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка <br />
-                по макету
-              </p>
-              <a href="portfolio/asanas/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem
+            index="15"
+            text="Адаптивная верстка по макету" 
+            folder="portfolio/pravotech/index.html" 
+          />
 
-          <div className="mywork myworkItem13">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка <br />
-                по макету
-              </p>
-              <a href="portfolio/beauty-gun/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="14"
+            text="Адаптивная верстка по макету" 
+            folder="portfolio/asanas/index.html" 
+          />
 
-          <div className="mywork myworkItem12">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка, <br />
-                интеграция с WordPress
-              </p>
-              <a href="portfolio/aer/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="13"
+            text="Адаптивная верстка по макету" 
+            folder="portfolio/beauty-gun/index.html" 
+          />
 
-          <div className="mywork myworkItem11">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка, <br />
-                интеграция с WordPress
-              </p>
-              <a href="https://proprizyv.ru/" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="12"
+            text="Адаптивная верстка, интеграция с WordPress" 
+            folder="portfolio/aer/index.html" 
+          />
 
-          <div className="mywork myworkItem10">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка, <br />
-                интеграция с WordPress
-              </p>
-              <a href="portfolio/cmt58/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="11"
+            text="Адаптивная верстка, интеграция с WordPress" 
+            folder="https://proprizyv.ru/" 
+          />
 
-          <div className="mywork myworkItem9">
-            <div className="myworkHidden">
-              <p>
-                Сайт-каталог под ключ <br />
-                (интеграция с WordPress)
-              </p>
-              <a href="https://xn-----blcoaca7bephbdhc7alg6qh2e.xn--p1ai/" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="10"
+            text="Адаптивная верстка, интеграция с WordPress" 
+            folder="portfolio/cmt58/index.html" 
+          />
 
-          <div className="mywork myworkItem8">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка <br />
-                по макету
-              </p>
-              <a href="portfolio/disart/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="9"
+            text="Сайт-каталог под ключ (интеграция с WordPress)" 
+            folder="https://xn-----blcoaca7bephbdhc7alg6qh2e.xn--p1ai/" 
+          />
 
-          <div className="mywork myworkItem7">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка <br />
-                по макету
-              </p>
-              <a href="portfolio/planeta-vaz/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="8"
+            text="Адаптивная верстка по макету" 
+            folder="portfolio/disart/index.html" 
+          />
 
-          <div className="mywork myworkItem6">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка, <br />
-                интеграция с WordPress
-              </p>
-              <a href="http://edgedsign.com/" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="7"
+            text="Адаптивная верстка по макету" 
+            folder="portfolio/planeta-vaz/index.html" 
+          />
 
-          <div className="mywork myworkItem5">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка <br />
-                главной страницы
-              </p>
-              <a href="portfolio/north-design/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="6"
+            text="Адаптивная верстка, интеграция с WordPress" 
+            folder="http://edgedsign.com/" 
+          />
 
-          <div className="mywork myworkItem4">
-            <div className="myworkHidden">
-              <p>
-                Создание сайта <br />
-                под ключ
-              </p>
-              <a href="portfolio/ktk-051/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="5"
+            text="Адаптивная верстка главной страницы" 
+            folder="portfolio/orth-design/index.html" 
+          />
 
-          <div className="mywork myworkItem3">
-            <div className="myworkHidden">
-              <p>
-                Создание сайта <br />
-                под ключ
-              </p>
-              <a href="portfolio/pgt/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="4"
+            text="Создание сайта под ключ" 
+            folder="portfolio/ktk-051/index.html" 
+          />
 
-          <div className="mywork myworkItem2">
-            <div className="myworkHidden">
-              <p>
-                Создание сайта <br />
-                под ключ
-              </p>
-              <a href="portfolio/ppixel/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="3"
+            text="Создание сайта под ключ" 
+            folder="portfolio/pgt/index.html" 
+          />
 
-          <div className="mywork myworkItem1">
-            <div className="myworkHidden">
-              <p>
-                Адаптивная верстка <br />
-                главной страницы
-              </p>
-              <a href="portfolio/uk-main-page/index.html" target="_blank" className="portfBtn">
-                Посмотреть работу
-              </a>
-            </div>
-          </div>
+          <PortfolioItem 
+            index="2"
+            text="Создание сайта под ключ" 
+            folder="portfolio/ppixel/index.html" 
+          />
+
+          <PortfolioItem 
+            index="1"
+            text="Адаптивная верстка главной страницы" 
+            folder="portfolio/uk-main-page/index.html" 
+          />
+
         </div>
       </div>
     </div>

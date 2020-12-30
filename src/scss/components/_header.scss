@@ -52,7 +52,9 @@ header {
       z-index: 10;
       margin-bottom: 10px;
       a {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: #014c6b;
         padding: 10px 5px;
         transition: all 0.2s ease-in-out;
@@ -82,7 +84,9 @@ header {
 
   &__socials {
     a {
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       color: #014c6b;
       padding: 10px 5px;
       transition: all 0.2s ease-in-out;
